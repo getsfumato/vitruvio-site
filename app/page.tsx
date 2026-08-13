@@ -35,9 +35,7 @@ export default function Home() {
         </Reveal>
 
         <Reveal delay={0.32}>
-          <p className="lede">
-            Portable, verifiable, model-agnostic knowledge. <em>The brain returns evidence, never prose.</em>
-          </p>
+          <p className="lede">Portable, verifiable, model-agnostic knowledge.</p>
         </Reveal>
 
         <Reveal className="stage__act" delay={0.44}>

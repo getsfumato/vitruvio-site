@@ -91,12 +91,12 @@ export default function InstallCommand() {
           </AnimatePresence>
         </motion.button>
       </div>
-      {/* The one caveat worth a line. Which extras exist, how to pin a version, where
-          the wheels come from — that is the installer's own header and the guide's
-          job; under a page whose whole argument is one command, a footnote is the
-          largest block of text on screen. "Brings its own Python" is here because it
-          is the question anyone installing a Python tool asks first. */}
-      <p className="install__status">macOS &amp; Linux · brings its own Python</p>
+      {/* The one caveat that survives the cut. Which extras exist, how to pin a
+          version, where the wheels come from, which Python it ends up using — that is
+          the installer's own header and the guide's job; under a page whose whole
+          argument is one command, a footnote is the largest block of text on
+          screen. */}
+      <p className="install__status">macOS &amp; Linux</p>
     </section>
   );
 }

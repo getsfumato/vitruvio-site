@@ -422,13 +422,6 @@ body {
   text-wrap: balance;
 }
 
-/* The half-sentence that carries the whole argument, in the machine voice because
-   it is a guarantee about output rather than a claim about quality. */
-.lede em {
-  font-style: normal;
-  color: var(--ivory);
-}
-
 /* ---------- install ----------------------------------------------------- */
 
 /* Wider than sfumato's 30rem: this command is six characters longer and at 30rem the
