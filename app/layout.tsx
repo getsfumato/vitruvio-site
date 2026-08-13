@@ -12,7 +12,7 @@ import './globals.css';
  */
 const TITLE = 'vitruvio — knowledge you can check';
 const DESCRIPTION =
-  'The engine behind a Boltzmann Brain: portable, verifiable, model-agnostic knowledge. Six index kinds, text and vision embeddings, and a cost-based planner that can explain why it chose them. Every command speaks JSON, and the brain returns evidence, never prose.';
+  'The engine behind a Boltzmann Brain: portable, verifiable, model-agnostic knowledge. Six index kinds, text and vision embeddings, and a cost-based planner that can explain why it chose them. Every command that returns data speaks JSON.';
 
 export const metadata: Metadata = {
   title: TITLE,
