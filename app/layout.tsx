@@ -5,12 +5,15 @@ import { GeistPixelSquare } from 'geist/font/pixel';
 import './globals.css';
 
 /**
- * The description leads with what the thing is for rather than with the protocol it
- * implements: someone arriving here wants to know that their notes become searchable
- * evidence on their own machine, and "Protocol implementation of an Index and a
- * QueryPlanner" is the README's opening, not a landing page's.
+ * The title is the name and nothing else. A tagline after the em dash is a second
+ * claim in a place nobody reads for claims — a tab strip, a bookmark, a link card
+ * headline — and the page already says what this is one line under the wordmark.
+ *
+ * The description is where that belongs, and it leads with what the thing is for
+ * rather than with the protocol it implements: "Protocol implementation of an Index
+ * and a QueryPlanner" is the README's opening, not a landing page's.
  */
-const TITLE = 'vitruvio — knowledge you can check';
+const TITLE = 'vitruvio';
 const DESCRIPTION =
   'The engine behind a Boltzmann Brain: portable, verifiable, model-agnostic knowledge. Six index kinds, text and vision embeddings, and a cost-based planner that can explain why it chose them. Every command that returns data speaks JSON.';
 
