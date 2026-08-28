@@ -1,4 +1,4 @@
-# vitruvio.sfumato.sh
+# vitruvio.sh
 
 The landing page. Next.js (App Router), TypeScript, Three.js, motion — the same
 stack, palette and one-screen shape as [`../site`](../site), which is the point:

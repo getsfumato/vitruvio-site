@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { AnimatePresence, motion } from 'motion/react';
 
-const COMMAND = 'curl -fsSL https://vitruvio.sfumato.sh/install.sh | sh';
+const COMMAND = 'curl -fsSL https://vitruvio.sh/install.sh | sh';
 
 type State = 'idle' | 'copied' | 'failed';
 

@@ -20,11 +20,11 @@ const DESCRIPTION =
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
-  metadataBase: new URL('https://vitruvio.sfumato.sh'),
+  metadataBase: new URL('https://vitruvio.sh'),
   icons: { icon: '/favicon.svg' },
   openGraph: {
     type: 'website',
-    url: 'https://vitruvio.sfumato.sh/',
+    url: 'https://vitruvio.sh/',
     title: TITLE,
     description: DESCRIPTION,
   },
