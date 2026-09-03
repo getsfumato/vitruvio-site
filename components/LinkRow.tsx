@@ -61,8 +61,8 @@ function SfumatoMark() {
 const LINKS = [
   { href: 'https://github.com/getsfumato/vitruvio', label: 'Source on GitHub', Mark: GithubMark },
   {
-    href: 'https://github.com/getsfumato/vitruvio/blob/main/docs/guide/README.md',
-    label: 'The guide',
+    href: 'https://docs.vitruvio.sh',
+    label: 'Docs',
     Mark: GuideMark,
   },
   { href: 'https://sfumato.sh', label: 'sfumato', Mark: SfumatoMark },
