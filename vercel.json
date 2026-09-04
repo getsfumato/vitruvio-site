@@ -1,0 +1,25 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/_mintlify/:path*",
+      "destination": "https://vitruvio.mintlifysite.com/_mintlify/:path*"
+    },
+    {
+      "source": "/api/request",
+      "destination": "https://vitruvio.mintlifysite.com/_mintlify/api/request"
+    },
+    {
+      "source": "/docs",
+      "destination": "https://vitruvio.mintlifysite.com/docs"
+    },
+    {
+      "source": "/docs/:match*",
+      "destination": "https://vitruvio.mintlifysite.com/docs/:match*"
+    },
+    {
+      "source": "/mintlify-assets/:path+",
+      "destination": "https://vitruvio.mintlifysite.com/mintlify-assets/:path+"
+    }
+  ]
+}
