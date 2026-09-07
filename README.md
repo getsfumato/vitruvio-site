@@ -18,6 +18,7 @@ app/
   page.tsx          composition (server component)
   globals.css       palette, layout, CSS fallbacks, entrance keyframes
 components/
+  BrandMark.tsx        the mark, inline, fixed in the top-left corner
   ProportionField.tsx  the ground: a shader drawing the ad-circulum construction
   SpecimenPlate.tsx    the specimen: per-region mosaic + measured readouts
   InstallCommand.tsx   copy-to-clipboard (motion)
@@ -28,6 +29,10 @@ lib/
 public/
   install.sh        served at /install.sh — the command on the page fetches this
   img/vitruvius.webp
+  favicon.svg       the small mark on the site's ground, so the tab strip gets a tile
+  brand/            the mark (64px+), mark-small (24–48px) and the lockup with the
+                    wordmark as paths, each in dark, light and currentColor — the
+                    canonical copies, served at vitruvio.sh/brand/
 ```
 
 ## What differs from sfumato.sh, and why

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="vitruvio">
+  <rect x="3.056" y="5.861" width="25.889" height="25.889" fill="none" stroke="#cba053" stroke-opacity="0.28" stroke-width="0.5"/>
+  <circle cx="16" cy="16" r="15.75" fill="none" stroke="#cba053" stroke-opacity="0.55" stroke-width="0.5"/>
+  <path fill="#e9e1d1" d="M3.306 6.111L16 31.5L28.694 6.111H26.458L16 27.028L5.542 6.111Z"/>
+  <circle cx="16" cy="7.698" r="1.587" fill="#e9e1d1"/>
+  <circle cx="16" cy="16" r="0.45" fill="#e9e1d1"/>
+  <circle cx="16" cy="18.806" r="0.45" fill="none" stroke="#e9e1d1" stroke-width="0.2"/>
+</svg>

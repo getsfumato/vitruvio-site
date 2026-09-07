@@ -1,3 +1,4 @@
+import BrandMark from '@/components/BrandMark';
 import InstallCommand from '@/components/InstallCommand';
 import LinkRow from '@/components/LinkRow';
 import ProportionField from '@/components/ProportionField';
@@ -24,6 +25,12 @@ export default function Home() {
   return (
     <>
       <ProportionField />
+
+      {/* The mark, in the corner where a site keeps its logo, outside the composition so
+          the column below stays exactly as it was. It surfaces with everything else. */}
+      <Reveal className="brandmark" delay={0.05}>
+        <BrandMark />
+      </Reveal>
 
       <main className="stage">
         <Reveal className="portrait" delay={0.05}>
