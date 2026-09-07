@@ -29,7 +29,8 @@ lib/
 public/
   install.sh        served at /install.sh — the command on the page fetches this
   img/vitruvius.webp
-  favicon.svg       the small mark on the site's ground, so the tab strip gets a tile
+  favicon.svg       the mark, all gold on no ground, with the lines thickened so it
+                    reads on any tab strip
   brand/            the mark (64px+), mark-small (24–48px) and the lockup with the
                     wordmark as paths, each in dark, light and currentColor — the
                     canonical copies, served at vitruvio.sh/brand/
